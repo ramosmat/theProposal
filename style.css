@@ -1,0 +1,37 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #e54;
+}
+
+.titulo-section h1 {
+  color: aliceblue;
+  font-weight: 700;
+}
+
+.buttons-section {
+  display: flex;
+  gap: 30px;
+}
+
+[data-buttons] {
+  cursor: pointer;
+  background: none;
+  box-shadow: none;
+  border: 1px solid bisque;
+  color: white;
+  font-weight: 400;
+  padding: 5px 20px 5px 20px;
+}
+
+.texto-section h2 {
+  display: none;
+}
+
+.texto-section h2.ativo {
+  display: block;
+  color: white;
+  font-size: xx-large;
+}
